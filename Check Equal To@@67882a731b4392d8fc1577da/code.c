@@ -1,11 +1,11 @@
 #include <stdio.h>
-int main() {
+int main(){
     int a,b;
     scanf("%d",&a);
     scanf("d",&b);
     if (a==b){
-        print("True")
+        printf("True");
     }else{
-    printf("False")
+    printf("False");
     return 0;
 }
