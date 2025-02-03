@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     unsigned int num;
-    scanf("%lu,&num);
+    scanf("%lu",&num);
     if(num & (1<< 31))
     printf("Set\n");
     else
