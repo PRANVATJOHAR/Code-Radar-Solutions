@@ -6,7 +6,7 @@ int getNthBit(int num, int n) {
 
 int main() {
     int num, n;
-    scanf("%d %d", &num, &n)
+    scanf("%d %d", &num, &n);
 
     printf("%d\n",getNthBit(num,n));
     return 0;
