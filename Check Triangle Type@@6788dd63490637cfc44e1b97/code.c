@@ -10,13 +10,7 @@ int main() {
     else{
         printf("Scalene");
     }
-    
-
-}
-
-
-
-int main() {
-    printf("%s", welcome());
     return 0;
 }
+
+
