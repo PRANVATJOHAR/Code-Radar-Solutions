@@ -3,11 +3,8 @@
 
 
 int main() {
-    int a , b;
-    scanf("%d %d",&a,&b);
-    a=a^b;
-    b=a^b;
-
-    printf("%d %d\n",a,b);
+    int num , n;
+    scanf("%d %d",&num,&n);
+   printf("%d",(1<<n)|num);
     return 0;
 }
