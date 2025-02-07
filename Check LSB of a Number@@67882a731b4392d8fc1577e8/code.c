@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int p;
     scanf("%d",&num);
-    if (num & 1)
+    if (p & 1)
     printf("Set");
     else
     printf("Not Set");
