@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-
-
-int main() {
-    unsigned int num;
-    scanf("%u",&num);
-    printf("%d\n",__builtin_clz(num) );
+int main(){
+    int n;
+    scanf("%d",&n);
+    int count=0;
+    while((1&(1<<n)==1) && (n!=1)){
+        count++;
+    }printf("%d,count");
     return 0;
 }
