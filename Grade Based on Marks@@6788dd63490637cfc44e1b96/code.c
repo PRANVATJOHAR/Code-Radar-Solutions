@@ -1,24 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
-
-void checkCharacterType(char ch) {
-    if (isdigit(ch)) {
-        printf("Digit\n");
-    } else if (isalpha(ch)) {
-        ch = tolower(ch);
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-            printf("Vowel\n");
-        } else {
-            printf("Consonant\n");
-        }
-    } else {
-        printf("Special Character\n");
-    }
-}
-
-int main() {
-    char ch;
-    scanf("%c", &ch);
-    checkCharacterType(ch);
+int main ()
+{
+    int a;
+    scanf("%d",&a);
+    if (a>=90)
+    printf("A");
+    else if (a>=80 && a<90)
+    printf("B");
+    else if (a>=70 && a<80)
+    printf("C");
+    else if (a>=60 && a<70)
+    printf("D");
+    else
+    printf("F");
     return 0;
 }
