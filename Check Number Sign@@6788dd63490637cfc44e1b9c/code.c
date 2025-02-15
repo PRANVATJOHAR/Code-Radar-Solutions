@@ -1,4 +1,5 @@
 #include <stdio.h>
 int main() {
-    printf("Positive")
+    printf("Positive");
+    return 0;
 }
