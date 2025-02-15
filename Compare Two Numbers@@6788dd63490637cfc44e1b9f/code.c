@@ -3,11 +3,11 @@ int main(){
     int A,B;
     printf("");
     scanf("%d %d", &A, &B);
-    if (A=B)
+    if (A==B)
     printf("Equal");
     if(A>B)
     printf("First");
-    else if (A<B)
+    else if 
     printf("Second");
 
 }
