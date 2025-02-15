@@ -2,10 +2,10 @@
 int main() {
     int age;
     printf("");
-    scanf("d",&age);
+    scanf("d", &age);
     if (age>=60)
     printf("Eligible");
-    else (age<60)
+    else 
     printf("Not Eligible");
     return 0;
 }
