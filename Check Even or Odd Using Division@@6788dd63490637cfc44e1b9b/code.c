@@ -7,8 +7,7 @@ int main() {
     if (num % 2==0)
     printf("Even\n");
     else
-    printf("Odd|n")
+    printf("Odd\n")
     return 0;
-
-
 }
+
