@@ -8,6 +8,8 @@ if (A>B)
 printf("Yes");
 else if (A<B)
 printf("No");
+else 
+printf("Equal");
 return 0;
 
 
