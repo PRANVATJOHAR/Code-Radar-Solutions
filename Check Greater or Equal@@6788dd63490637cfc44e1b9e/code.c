@@ -6,7 +6,7 @@ printf("");
 scanf("%d", &A,&B);
 if (A>B)
 printf("Yes");
-else (B>A)
+else 
 printf("No");
 return 0;
 
