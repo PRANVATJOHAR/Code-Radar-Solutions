@@ -5,9 +5,9 @@ int main(){
     scanf("%d %d", &A &B);
     if (A=B)
     printf("Equal");
-    else if(A>B)
+    if(A>B)
     printf("First");
-    else
+    else if (A<B)
     printf("Second");
 
 }
