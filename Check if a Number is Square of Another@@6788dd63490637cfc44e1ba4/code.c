@@ -5,7 +5,7 @@ int main() {
   
     if(a==b*2)
     printf("Yes");
-    else if(b==a*2)
+    else if(a*2==b)
     printf("Yes");
     
     else 
