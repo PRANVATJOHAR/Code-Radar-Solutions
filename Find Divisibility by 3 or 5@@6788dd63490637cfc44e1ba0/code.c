@@ -10,10 +10,10 @@ int main() {
         printf("Divisible by 3");
     }
     else if (n%5==0){
-        printf("Divisble by 5")
+        printf("Divisble by 5");
     }
     else{
-        printf("Not Divisible")
+        printf("Not Divisible");
     }
     return 0;
 }
