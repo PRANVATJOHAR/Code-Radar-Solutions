@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int n;
+    int num;
     scanf("%d", &n);
-    if (n>> = 1 && n<< =100){
+    if (num>>=1 && num<<=100){
         printf("In Range");
     }
     else{
