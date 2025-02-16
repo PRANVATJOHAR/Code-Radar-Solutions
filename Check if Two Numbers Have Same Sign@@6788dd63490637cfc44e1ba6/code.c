@@ -5,7 +5,7 @@ int main() {
     if (a&&b>=0)
     printf("Same sign");
     else
-    printf("Different sign")
+    printf("Different sign");
     return 0;
 
 
