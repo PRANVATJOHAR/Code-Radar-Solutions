@@ -2,10 +2,10 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if("a<=0")
+    if("a<=0"){
     printf("Freezing");
-    else
+    }else{
     printf("Above Freezing");
-    return 0;
+}return 0;
 
 }
