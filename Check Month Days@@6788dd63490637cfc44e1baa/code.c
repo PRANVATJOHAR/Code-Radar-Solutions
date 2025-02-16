@@ -16,13 +16,13 @@ int main() {
         printf("30");
         break;
         case 5:
-        printf("31")
+        printf("31");
         break;
         case 6:
-        printf("30")
+        printf("30");
         break;
         case 7:
-        printf("31")
+        printf("31");
         break;
         case 8:
         printf("31");
