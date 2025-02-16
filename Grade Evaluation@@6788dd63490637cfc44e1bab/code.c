@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int grades;
-    scanf("%d",&grades)
+    scanf("%d",&grades);
     switch (grades){
         case A:
         printf("Excellent");
