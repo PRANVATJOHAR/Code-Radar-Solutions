@@ -6,8 +6,8 @@ int main() {
     scanf("%d",&c);
 
     if (a+b>=c||a+c>=b||b+c>=a){
-    printf("Valid");
+        printf("Valid");
     }else{
-    printf("Invalid");
+        printf("Invalid");
     }return 0;
 }
