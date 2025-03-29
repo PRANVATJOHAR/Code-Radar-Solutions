@@ -4,6 +4,6 @@ int main() {
     if(n%2==0)
     printf("Sorted");
     else
-    printf("Not Sorted")
+    printf("Not Sorted");
     return 0;
 }
