@@ -16,10 +16,10 @@ int main() {
         printf("* * *");
     }
       if(n==4){
-        printf("* * *\n");
-        printf("* * *\n");
-        printf("* * *\n");
-        printf("* * *");
+        printf("* * * *\n");
+        printf("* * * *\n");
+        printf("* * * *\n");
+        printf("* * * *");
     }
 
 
