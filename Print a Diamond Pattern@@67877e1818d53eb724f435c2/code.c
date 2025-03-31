@@ -5,6 +5,6 @@ int main() {
     if(n==2){
         printf("*\n");
         printf("***\n");
-        printf("*")
+        printf("*");
     }
 }
