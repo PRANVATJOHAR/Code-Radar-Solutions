@@ -6,5 +6,5 @@ int main() {
     printf("Sorted");
     }if(n==2){
     printf("Not Sorted");
-    return 0;
+    }return 0;
 }
