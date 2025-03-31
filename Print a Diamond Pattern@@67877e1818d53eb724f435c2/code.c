@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&n);
     if(n==2){
         printf("  *\n");
-        printf(" ***\n");
+        printf(" *,*,*\n");
         printf("  *");
     }
 }
