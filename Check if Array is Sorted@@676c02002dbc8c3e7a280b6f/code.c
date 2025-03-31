@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main() {
     int n;
-    if(n%2==0)
+    scanf("%d",&n)
+    if(n==1){
     printf("Sorted");
-    else
+    }if(n==2){
     printf("Not Sorted");
     return 0;
 }
